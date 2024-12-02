@@ -53,5 +53,6 @@ Get-ChildItem -Path $path -Recurse | ForEach-Object {
     $($_.FullName)
 }
 
-# Awareness HTML-Datei öffnen
-Invoke-Item "awareness-hint.html"
+# Öffnen der awareness-hint.html aus dem gleichen Verzeichnis wie das Skript
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
+Invoke-Item "$scriptDir\awareness-hint.html"
