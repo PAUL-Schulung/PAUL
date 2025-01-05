@@ -1,3 +1,20 @@
+# Prozessname, auf den gewartet wird
+$processName = "explorer"
+
+# Wartezeit zwischen den Überprüfungen (in Sekunden)
+$checkInterval = 1
+
+# Warten, bis der Prozess gestartet wird
+while (-not (Get-Process -Name $processName -ErrorAction SilentlyContinue)) {
+    Start-Sleep -Seconds $checkInterval
+}
+
+# Windows-Explorer Beenden
+Get-Process -Name $processName | Stop-Process
+
+# Warten auf das Beenden des Windows-Explorers
+Wait-Process -Name $processName
+
 # Blinkender ASCII-Schädel
 for ($i = 0; $i -lt 5; $i++) {
     Clear-Host
@@ -53,9 +70,14 @@ Get-ChildItem -Path $path -Recurse | ForEach-Object {
     $($_.FullName)
 }
 
+Start-Sleep -Seconds 2
+
 # Öffnen der awareness-hint.html aus dem gleichen Verzeichnis wie das Skript
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 Invoke-Item "$scriptDir\awareness-hint.html"
 
-# Skript zum Starten der Windows-Kamera
+Start-Sleep -Seconds 5
+
 start microsoft.windows.camera:
+
+
