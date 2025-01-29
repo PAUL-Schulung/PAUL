@@ -9,6 +9,8 @@ Hier finden Sie alle Materialien zu PAUL
 - **Schulungsleitfaden**: Enthält eine Schritt-für-Schritt-Anleitung für die Durchführung der Schulung.
 - **Folien**: Präsentationsfolien mit begleitenden Vortragsnotizen für Dozierende.
 - **Code für Modul "Umgang mit Wechseldatenträgern**: Code das für das Modul Umgang mit Wechseldatenträgern genutzt werden kann
+- **Quizfragen zum Passwörter**: Quizfragen für das Modul "Sichere Passwörter und Authentifizierung"
+- **Phishing-Mails**:Beispiel-Mails für das Modul "Social Engineering und Manipulation"
 - **Vorlagen zur Evaluation**: Fragen für die Evaluation nach der Schulung
 
 # Lizenz
