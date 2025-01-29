@@ -6,12 +6,12 @@ Hier finden Sie alle Materialien zu PAUL
 
 ## Inhalte dieses Repositories
 
-- **Schulungsleitfaden**: Enthält eine Schritt-für-Schritt-Anleitung für die Durchführung der Schulung.
-- **Folien**: Präsentationsfolien mit begleitenden Vortragsnotizen für Dozierende.
-- **Code für Modul "Umgang mit Wechseldatenträgern**: Code das für das Modul Umgang mit Wechseldatenträgern genutzt werden kann
-- **Quizfragen zum Passwörter**: Quizfragen für das Modul "Sichere Passwörter und Authentifizierung"
-- **Phishing-Mails**:Beispiel-Mails für das Modul "Social Engineering und Manipulation"
-- **Vorlagen zur Evaluation**: Fragen für die Evaluation nach der Schulung
+- **[Schulungsleitfaden](https://github.com/PAUL-Schulung/PAUL/raw/refs/heads/main/Schulungsleitfaden.docx)**: Enthält eine Schritt-für-Schritt-Anleitung für die Durchführung der Schulung.
+- **[Folien](https://github.com/PAUL-Schulung/PAUL/raw/refs/heads/main/PAUL_Awareness-%20und%20IT-Sicherheitsschulung.pptx)**: Präsentationsfolien mit begleitenden Vortragsnotizen für Dozierende.
+- **[Code für Modul "Umgang mit Wechseldatenträgern](https://github.com/PAUL-Schulung/PAUL/tree/main/Code%20Modul%20Datentr%C3%A4ger)**: Code das für das Modul Umgang mit Wechseldatenträgern genutzt werden kann
+- **[Quizfragen zum Passwörter](https://github.com/PAUL-Schulung/PAUL/raw/refs/heads/main/Quiz%20Modul%20Passwortsicherheit.odt)**: Quizfragen für das Modul "Sichere Passwörter und Authentifizierung"
+- **[Phishing-Mails](https://github.com/PAUL-Schulung/PAUL/tree/main/Phishing%20Mails)**:Beispiel-Mails für das Modul "Social Engineering und Manipulation"
+- **[Vorlagen zur Evaluation](https://github.com/PAUL-Schulung/PAUL/raw/refs/heads/main/Vorlage_Evaluation.odt)**: Fragen für die Evaluation nach der Schulung
 
 # Lizenz
 
@@ -19,4 +19,4 @@ Alle Unterlagen sind unter der CC BY-NC-SA 4.0 lizensiert.
 
 # Feedback
 
-Bei Feedback und Verbesserungsvorschlägen zu PAUL können Sie sich an...
+Bei Feedback und Verbesserungsvorschlägen zu PAUL können Sie sich an das PAUL Team wenden.
