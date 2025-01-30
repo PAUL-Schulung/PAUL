@@ -19,4 +19,5 @@ Alle Unterlagen sind unter der CC BY-NC-SA 4.0 lizensiert.
 
 # Feedback
 
-Bei Feedback und Verbesserungsvorschlägen zu PAUL können Sie sich unter [PAUL-Schulung@protonmail.com](PAUL-Schulung@protonmail.com) an das PAUL Team wenden.
+Bei Feedback und Verbesserungsvorschlägen zu PAUL können Sie sich unter [PAUL-Schulung@protonmail.com](mailto:PAUL-Schulung@protonmail.com)
+ an das PAUL Team wenden.
